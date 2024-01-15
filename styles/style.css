@@ -1,0 +1,29 @@
+/* Maim Header */
+header{
+    width: 1250px;
+    margin: 0 auto;
+    border: 2px solid;
+}
+
+body{
+    font-family: "Mulish";
+}
+/* Nav Style Start */
+.nav-header{
+    display: flex;
+    align-items: center;
+}
+.nav-title{
+    display: flex;
+    /* border: 2px solid; */
+    width: 50%;
+}
+.item-container{
+    /* border: 2px dashed; */
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.item-container a{
+    text-decoration: none;
+}
