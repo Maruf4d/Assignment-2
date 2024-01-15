@@ -1,0 +1,35 @@
+@media screen and (max-width:600px){
+    
+    .nav-header{
+        flex-direction: column;
+    }
+    .item-container{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    .banner-container{
+        width: 100%;
+        height: 100%;
+        text-align: justify;
+    }
+    .banner-title{
+        font-size: 25px;
+    }
+    .input-title{
+        flex-direction: column;
+        gap: 0;
+        margin-top: -50px;
+    }
+    .common , .btn{
+        width: 100%;
+
+    }
+    .header-title{
+        font-size: 24px;
+    }
+    .item-container{
+        font-size: 16px;
+    }
+    /* Banner Section end */
+}

@@ -1,7 +1,5 @@
 /* Maim Header */
 header{
-    width: 1250px;
-    margin: 0 auto;
     border: 2px solid;
 }
 
@@ -12,6 +10,15 @@ body{
 .nav-header{
     display: flex;
     align-items: center;
+
+}
+.header-title{
+    color: #131318;
+    font-size: 34px;
+    font-weight: 800;
+}
+.heart{
+    color: #FF5400;
 }
 .nav-title{
     display: flex;
@@ -21,6 +28,12 @@ body{
     width: 50%;
     display: flex;
     justify-content: space-around;
+    color:#424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+#home{
+    color: #FF5400;
 }
 .item-container a{
     text-decoration: none;
@@ -32,6 +45,7 @@ body{
     height: 500px;
     margin: 0 auto;
     background-repeat: no-repeat;
+    background-position: center;
     object-fit: cover;
 }
 .banner-head{
