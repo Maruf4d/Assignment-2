@@ -1,10 +1,10 @@
 /* Maim Header */
-header{
-    border: 2px solid;
-}
 
 body{
     font-family: "Mulish";
+    border: 2px solid;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 /* Nav Style Start */
 .nav-header{
@@ -47,6 +47,8 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;
+    margin-top: 60px;
+    border-radius: 20px;
 }
 .banner-head{
   padding-top: 70px;
@@ -98,3 +100,30 @@ body{
     text-align: center;
     margin-top: 20px;
 }
+/* Main Section Start */
+
+.main-title{
+    width: 50%;
+    border: 2px solid;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.main-container{
+    display: flex;
+    gap: 20px;
+}
+.tours-item{
+color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.tours-rules{
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+}
+.tours-img{
+ margin-top: 100px;
+ object-fit: cover;
+}
+/* Tours role end */
