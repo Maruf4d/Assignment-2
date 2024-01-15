@@ -15,15 +15,72 @@ body{
 }
 .nav-title{
     display: flex;
-    /* border: 2px solid; */
     width: 50%;
 }
 .item-container{
-    /* border: 2px dashed; */
     width: 50%;
     display: flex;
     justify-content: space-around;
 }
 .item-container a{
     text-decoration: none;
+}
+/* Banner Start */
+.banner-container{
+    background-image: url('../Images/Banner.png');
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.banner-head{
+  padding-top: 70px;
+}
+
+.banner-title{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+.banner-description{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom:60px;
+}
+.input-title{
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 50%;
+    height: 15%;
+    margin: 0 auto;
+}
+
+.common{
+    color: #13131880;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    margin-top: 20px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0px;
+    color: #FFFFFF;
+    background: #FF5400;
+    text-align: center;
+    margin-top: 20px;
 }
