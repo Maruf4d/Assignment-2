@@ -4,7 +4,7 @@
     max-width: 500px;
     }
     .header-title{
-        font-size: 10px;
+        font-size: 12px;
     }
     .nav-header{
         flex-direction: column;
@@ -140,13 +140,13 @@ margin-bottom: 50px;
 }
 .transfrom {
     position: relative;
-    left: 145px;
+    left: 135px;
+    top: 208px;
 }
 .Newsletter , .pera , #input-title, .last-btn{
     margin-left: 50px;
 }
 
-}
 #input-title{
     width: 400px;
     margin-top: 50px;
@@ -156,9 +156,15 @@ hr{
 margin-left: 50px;
 width:72%;
 }
+/* Main Section end */
 
 
-
+.footer-container{
+    width: 100%;
+}
+.footer-description{
+    width: 70%;
+}
 
 
 

@@ -363,7 +363,7 @@ hr{
     width: 324px;
     height: 120px; 
     position: relative;
-    top: 215px;
+    top: 208px;
     left: 338px;
 }
 .first{
@@ -377,4 +377,34 @@ text-align: center;
 color: #FFF;
 font-size: 32px;
 font-weight: 800;
+}
+/* Main Section end */
+.footer-container{
+    background-color: rgb(142, 181, 255);
+    width: 1200px;
+    height: 502px;
+    margin-top: 50px;
+}
+#team{
+    padding-top: 50px; 
+}
+
+.footer-title{
+    display: flex;
+    text-align: center;
+    max-width: 30%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.footer-description{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.footer-icon{
+    text-align: center;
+    margin-top: 20px; 
+}
+.end{
+    text-align: center;
 }
