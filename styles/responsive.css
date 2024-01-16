@@ -12,26 +12,38 @@
     .banner-container{
         width: 90%;
     }
+    .banner-description{
+        font-size: 12px;
+        margin: 20px;
+        padding: 20px;
+    }
     .banner-title{
         font-size: 20px;
+        width: 800;
+        margin-bottom: -20px;
     }
     .item-container{
-        gap: 20px;
+        gap: 15px;
         margin-top: 20px;
      
     }
     .input-title{
         flex-direction: column;
         gap: 0;
-        height: 37%;
+        height: 50%;
     }
     .common , .btn{
         width: 100%;
+        margin-top: 20px;
+
+  
+
 }
 /* Banner Section End */
 
 .main-container{
     flex-direction: column;
+    margin-top: -100px;
    
 }
 .main-title{
@@ -39,23 +51,24 @@
 }
 .tours-img img{
   width: 90%;
-  margin-left: 12px;
+  margin-left: 25px;
 }
 .choose-disition{
     font-size: 24px;
 }
+
 .choose-description{
     width: 90%;
 }
 .spot-title img{
-    border: 2px solid;
+    /* border: 2px solid; */
     width: 90%;
-    margin-left: 12px;
+    margin-left: 25px;
     object-fit: cover;
 }
 .div-head{
     flex-direction: column;
-    border: 2px solid;
+    /* border: 2px solid; */
 }
 .hotel-header , .last-hotel{
     max-width: 90%;
