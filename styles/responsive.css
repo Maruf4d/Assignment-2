@@ -1,35 +1,28 @@
 @media screen and (max-width:600px){
     
+    body{
+    max-width: 500px;
+    }
+    .header-title{
+        font-size: 10px;
+    }
     .nav-header{
         flex-direction: column;
     }
-    .item-container{
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
     .banner-container{
-        width: 100%;
-        height: 100%;
+        width: 90%;
     }
     .banner-title{
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .item-container{
+        flex-direction: column;
     }
     .input-title{
         flex-direction: column;
         gap: 0;
-        margin-top: -50px;
+        height: 40%;
     }
     .common , .btn{
         width: 100%;
-
-    }
-    .header-title{
-        font-size: 24px;
-    }
-    .banner-description{
-        font-size: 16px;
-        padding: 10px ;
-    }
-    /* Banner Section end */
 }
