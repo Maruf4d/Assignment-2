@@ -96,24 +96,25 @@ margin-bottom: 50px;
     font-size: 20px;
 }
 
-.discounts-banner {
+.discounts-banner , .discounts-scend-banner {
     width: 90%;
 }
-.discounts-head{
-    width: 90%;
-    border: 4px solid;
-}
-.discounts-title{
-
-}
-
 .discounts-name{
     font-size: 16px;
 }
-.discounts-description{
- /* margin: 0; */
+.discounts-head{
+    position: relative ;
+    left: 0px;
+    top: 130px;
+    width: 90%;
 }
-
+.discounts-scend-head{
+    position: relative ;
+    right: 0px;
+    top: 100px;
+    width: 90%;
+}
+/* Bounces Section End */
 
 
 
