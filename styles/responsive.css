@@ -116,10 +116,46 @@ margin-bottom: 50px;
 }
 /* Bounces Section End */
 
+.last-container{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.last-head{
+    margin-top: px;
+    border: 1px solid #f10b1eec;
+    margin: 0px auto;
+}
+#input-title{
+    margin-top: 10px;
+}
+.last-btn{
+    margin-bottom: 40px;
+}
+.terminal{
+    width: 95%;
+    margin-left: 8px;
+    margin-top: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.transfrom {
+    position: relative;
+    left: 145px;
+}
+.Newsletter , .pera , #input-title, .last-btn{
+    margin-left: 50px;
+}
 
+}
+#input-title{
+    width: 400px;
+    margin-top: 50px;
+}
 
-
-
+hr{
+margin-left: 50px;
+width:72%;
+}
 
 
 
