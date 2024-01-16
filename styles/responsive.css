@@ -96,6 +96,33 @@ margin-bottom: 50px;
     font-size: 20px;
 }
 
+.discounts-banner {
+    width: 90%;
+}
+.discounts-head{
+    width: 90%;
+    border: 4px solid;
+}
+.discounts-title{
+
+}
+
+.discounts-name{
+    font-size: 16px;
+}
+.discounts-description{
+ /* margin: 0; */
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
