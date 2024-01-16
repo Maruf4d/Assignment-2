@@ -30,14 +30,14 @@
     .input-title{
         flex-direction: column;
         gap: 0;
-        height: 50%;
+        width: 70%;
+        height: 45%;
+
     }
     .common , .btn{
-        width: 100%;
-        margin-top: 20px;
-
-  
-
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 18px;
 }
 /* Banner Section End */
 
@@ -49,9 +49,12 @@
 .main-title{
     width: 90%;
 }
-.tours-img img{
+.tours-item{
+    font-size: 20px;
+}
+.tours-img img , .bd-end img{
   width: 90%;
-  margin-left: 25px;
+  margin-left: 22px;
 }
 .choose-disition{
     font-size: 24px;
@@ -63,16 +66,37 @@
 .spot-title img{
     /* border: 2px solid; */
     width: 90%;
-    margin-left: 25px;
+    margin-left: 22px;
     object-fit: cover;
 }
 .div-head{
     flex-direction: column;
     /* border: 2px solid; */
 }
-.hotel-header , .last-hotel{
+.hotel-header{
     max-width: 90%;
     margin-top: 20px;
+    margin-left: 22px;
 }
+.last-hotel{
+    max-width: 90%;
+    margin-left: 22px;
+}
+
+/* Hotel End */
+
+.bd-container{
+    flex-direction: column;
+}
+.bd-head{
+max-width: 100%;
+margin-bottom: 50px;
+}
+.bd-title{
+    font-size: 20px;
+}
+
+
+
 
 }
