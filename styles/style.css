@@ -381,12 +381,13 @@ font-weight: 800;
 /* Main Section end */
 .footer-container{
     background-color: rgb(142, 181, 255);
-    width: 1200px;
+    width: 1349px;
     height: 502px;
     margin-top: 50px;
-    border-radius: 10px;
-
+    position: absolute;
+    left: 0;
 }
+
 #team{
     padding-top: 50px; 
 }
