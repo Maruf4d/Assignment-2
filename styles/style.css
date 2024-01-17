@@ -2,7 +2,7 @@
 
 body{
     font-family: "Mulish";
-    border: 2px solid;
+    /* border: 2px solid; */
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -384,6 +384,8 @@ font-weight: 800;
     width: 1200px;
     height: 502px;
     margin-top: 50px;
+    border-radius: 10px;
+
 }
 #team{
     padding-top: 50px; 
